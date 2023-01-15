@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* general */
+body{
+    background-color: #181818;
+    color: white;
+}
+
+img {
+    vertical-align:middle ;
+}
+
+.m-2{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.red-button{
+    background-color: red;
+    border-radius: 2px;
+    padding: 0 15px;
+    height: 36px;
+    line-height: 38px;
+}
+
+.text-dark{
+    color: #a3a3a3;
+}
+
+/* header */
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+}
+
+header > img {
+    height: 30px;
+}
+
+ header .header-right {
+    display: flex;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.btn-outline{
+    border: 1px solid white;
+    border-radius: 2px;
+    height: 36px;
+    line-height: 38px;
+    padding: 0 15px;
+}
+
+header .header-right .header-text {
+    line-height: 38px;
+}
+
+.cover {
+    position: relative;
+    background-color: #191919;
+    padding-left: 80px;
+}
+
+.cover-left{
+    position: absolute;
+    top: 0;
+    left: 60px;
+    height:100%;
+    max-height: 650px;
+    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.98) 20%,hsla(0,0%,9%,.97) 25%,hsla(0,0%,9%,.95) 35%,hsla(0,0%,9%,.94) 40%,hsla(0,0%,9%,.92) 45%,hsla(0,0%,9%,.9) 50%,hsla(0,0%,9%,.87) 55%,hsla(0,0%,9%,.82) 60%,hsla(0,0%,9%,.75) 65%,hsla(0,0%,9%,.63) 70%,hsla(0,0%,9%,.45) 75%,hsla(0,0%,9%,.27) 80%,hsla(0,0%,9%,.15) 85%,hsla(0,0%,9%,.08) 90%,hsla(0,0%,9%,.03) 95%,hsla(0,0%,9%,0));
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+.cover-left > img {
+    width: 450px;
+    margin-bottom: 50px;
+}
+
+.cover-left .film-info{
+    color: #a3a3a3;
+    margin: 15px;
+}
+
+.cover-left > p {
+    font-size: 18px;
+}
+
+.cover-left .starrings{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.cover > img {
+    width: 100%;
+    max-height: 730px;
+    object-fit: cover;
+}
+
+.watch-all{
+    width: calc(100% - 150px);
+    margin-left: 70px;
+    position: absolute;
+    bottom: -10px;
+    background-color: black;
+    width: 99%;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 20px;
+    box-shadow: 2px 2px 4px black;
+}
+
+.watc-all .left img{
+    height: 38px ;
+}
+
+.maincontent{
+    padding: 0 70px 30px;
+}
+
+.videos{
+    cursor: pointer;
+    position: relative;
+}
+
+.description{
+    margin: 70px 0;
+    border-top: 1px solid #a3a3a3;
+    border-button : 1px solid #a3a3a3;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* videos */
+
+
+.videos header {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.videos header h2 {
+    padding-top: 8px;
+    margin-left: 6px;
+}
+
+
+.videos > div {
+    margin-top: 10px;
+    font-size:  18px;
+}
+.videos > .play {
+    pointer-events: none;
+    width: 50px;
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}
+
+.modal .trailer-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px 15px;
+}
+
+.modali .trailer-title img{
+    cursor: pointer;
+    width:  20px;
+    height: 20px;
+}
